@@ -20,10 +20,26 @@ The pre-trained model is compatible with the [Gensim API](https://radimrehurek.c
 
 ```
 
-For further examples refer to the Jupyter Notebook available in this repository.
+For further examples, refer to the Jupyter Notebook available in this repository.
 
 ## Cite work
 
 If you are willing to use our code and/or our models, please cite our work through the following BibTeX entry:
 ```bibtex
-``` 
+@inproceedings{morazzoni-etal-2023-def2vec,
+  author    = {Irene Morazzoni and
+               Vincenzo Scotti and
+               Roberto Tedesco},
+  title     = {{Def2Vec}: Extensible Word Embeddings from Dictionary Definitions},
+  booktitle = {6th International Conference on Natural Language and Speech Processing,
+               {ICNLSP} 2023, Trento, Italy, December 16-17, 2023},
+  publisher = {Association for Computational Linguistics},
+  year      = {2023}
+}
+```
+
+## Acknowledgments
+
+- Irene Morazzoni ([irene.morazzoni@mail.polimi.it](mailto:irene.morazzoni@mail.polimi.it))
+- Vincenzo Scotti ([vincenzo.scotti@polimi.it](mailto:vincenzo.scotti@polimi.it))
+- Roberto Tedesco ([roberto.tedesco@polimi.it](mailto:roberto.tedesco@polimi.it))

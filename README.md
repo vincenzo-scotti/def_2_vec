@@ -12,11 +12,11 @@ We release pre-trained models learned from the [English Wikitionary](https://en.
 The pre-trained models is compatible with the *KeyedVectors* of the [Gensim API](https://radimrehurek.com/gensim/) (see example below).
 The models are available at the following links: 
 
-| Model size | Text file     | Gensim KV file |
-|------------|---------------|----------------|
-| 50         | [download]()  | [download]()   |
-| 100        | [download]()  | [download]()   |
-| 300        | [download]()  | [download]()   |
+| Model size | Text file                                                                                                                                 | Gensim KV file                                                                                                                            |
+|------------|-------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| 50         | [download](https://polimi365-my.sharepoint.com/:u:/g/personal/10451445_polimi_it/EaI8ormefBlIoQB-1YWH22YBTD0rEtPbaD11YkMMNqlKxg?e=qLAMmA) | [download](https://polimi365-my.sharepoint.com/:u:/g/personal/10451445_polimi_it/ERJlBEE6EsNLmyK9t2nsCsEBR5L9cKsr_s9xXz3YIlcF6w?e=9poPf7) |
+| 100        | [download](https://polimi365-my.sharepoint.com/:u:/g/personal/10451445_polimi_it/EbYQNGrfPuBPhEXA-EjPL7IBmM0XqB_ZYewU1nj5p3jHRQ?e=Pyb0ac) | [download](https://polimi365-my.sharepoint.com/:u:/g/personal/10451445_polimi_it/EcD5S6HqE0NDmgfDTADyc9gBHlkRoRofGvgV8cVOGJ2ISw?e=ayr8e5) |
+| 300        | [download](https://polimi365-my.sharepoint.com/:u:/g/personal/10451445_polimi_it/EfQqgCR4fxxFoWWgw3YSYYIBAKq20vtObQNpjiJ1GiyQMA?e=PAncqK) | [download](https://polimi365-my.sharepoint.com/:u:/g/personal/10451445_polimi_it/EV4dqNoPQRFBnRh8TqXeh0IBtdD83314hQ-rkC8h5nucVQ?e=yEGJ0S) |
 
 > [!NOTE]
 > 

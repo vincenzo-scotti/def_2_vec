@@ -6,7 +6,7 @@ For all the references, contributions, and credits, please refer to the paper.
 This code was initially developed as part of the M.Sc. Thesis in Computer Science and Engineering "[Def2Vec: a model to extract word embeddings from dictionary definitions](https://www.politesi.polimi.it/handle/10589/179715)".
 The M.Sc. degree was released by the Dipartimento di Elettronica, Informazione e Bioingengeria  ([DEIB](https://www.deib.polimi.it/eng/home-page)) of the Politecnico di Milano University ([PoliMI](https://www.polimi.it)).
 
-## Pre-trained model
+## Pre-trained models
 
 We release pre-trained models learned from the [English Wikitionary](https://en.wiktionary.org/wiki/Wiktionary:Main_Page).
 The pre-trained models is compatible with the *KeyedVectors* of the [Gensim API](https://radimrehurek.com/gensim/) (see example below).

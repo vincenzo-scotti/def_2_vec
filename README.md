@@ -4,27 +4,56 @@ The codebase for the paper "[Def2Vec: Learning Extensible Word Vectors from Defi
 For all the references, contributions, and credits, please refer to the paper.
 
 This code was initially developed as part of the M.Sc. Thesis in Computer Science and Engineering "[Def2Vec: a model to extract word embeddings from dictionary definitions](https://www.politesi.polimi.it/handle/10589/179715)".
-The M.Sc. degree was released by the Dipartimento di Elettronica, Informazione e Bioingengeria  ([DEIB](https://www.deib.polimi.it/eng/home-page)) of the Politecnico di Milano University ([PoliMI](https://www.unitn.it)).
-The Thesis was supervised at PoliMI by the staff of the [ARCSlab](https://arcslab.dei.polimi.it).
+The M.Sc. degree was released by the Dipartimento di Elettronica, Informazione e Bioingengeria  ([DEIB](https://www.deib.polimi.it/eng/home-page)) of the Politecnico di Milano University ([PoliMI](https://www.polimi.it)).
 
 ## Pre-trained model
 
-We release a pre-trained model learned on the [English Wikitionary](https://en.wiktionary.org/wiki/Wiktionary:Main_Page).
-The model is available at the following link: [download]().
+We release pre-trained models learned from the [English Wikitionary](https://en.wiktionary.org/wiki/Wiktionary:Main_Page).
+The pre-trained models is compatible with the *KeyedVectors* of the [Gensim API](https://radimrehurek.com/gensim/) (see example below).
+The models are available at the following links: 
+
+| Model size | Text file     | Gensim KV file |
+|------------|---------------|----------------|
+| 50         | [download]()  | [download]()   |
+| 100        | [download]()  | [download]()   |
+| 300        | [download]()  | [download]()   |
+
+> [!NOTE]
+> 
+> Only the embedding part of the Def2Vec models is available at the moment (refer to the paper for further details).
 
 ## Example
 
-The pre-trained model is compatible with the [Gensim API](https://radimrehurek.com/gensim/).
+Here follow an example of:
+- model loading
+- word embedding extraction
+- sequence embedding extraction
 
 ```python
+import numpy as np
+from nltk.tokenize import word_tokenize
+from gensim.models import KeyedVectors
 
+
+# Path to the Gensim KV file
+path = './def2vec_en_wikitionary_50.kv'
+
+# Load model
+def2vec = KeyedVectors.load(path)
+# Embed single word
+embedding = def2vec['vector']
+# Embed word sequence
+sequence_embedding = np.vstack([
+    def2vec[token.lower()] for token in word_tokenize('Vector semantics is cool!')
+])
 ```
 
 For further examples, refer to the Jupyter Notebook available in this repository.
 
 ## Cite work
 
-If you are willing to use our code and/or our models, please cite our work through the following BibTeX entry:
+If you are willing to use our model, please cite our work through the following BibTeX entry:
+
 ```bibtex
 @inproceedings{morazzoni-etal-2023-def2vec,
   author    = {Irene Morazzoni and

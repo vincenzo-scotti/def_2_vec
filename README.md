@@ -1,6 +1,6 @@
 # Def2Vec
 
-The codebase for the paper "[Def2Vec: Learning Extensible Word Vectors from Definitions](https://www.overleaf.com/read/mjqknffjfhkw)".
+The codebase for the paper "[Def2Vec: Extensible Word Embeddings from Dictionary Definitions](https://www.overleaf.com/read/mjqknffjfhkw)".
 For all the references, contributions, and credits, please refer to the paper.
 
 This code was initially developed as part of the M.Sc. Thesis in Computer Science and Engineering "[Def2Vec: a model to extract word embeddings from dictionary definitions](https://www.politesi.polimi.it/handle/10589/179715)".

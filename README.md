@@ -1,6 +1,6 @@
 # Def2Vec
 
-The codebase for the paper "[Def2Vec: Extensible Word Embeddings from Dictionary Definitions](https://www.overleaf.com/read/mjqknffjfhkw)".
+The codebase for the paper "[Def2Vec: Extensible Word Embeddings from Dictionary Definitions](https://aclanthology.org/2023.icnlsp-1.21)".
 For all the references, contributions, and credits, please refer to the paper.
 
 This code was initially developed as part of the M.Sc. Thesis in Computer Science and Engineering "[Def2Vec: a model to extract word embeddings from dictionary definitions](https://www.politesi.polimi.it/handle/10589/179715)".
@@ -56,14 +56,19 @@ If you are willing to use our model, please cite our work through the following 
 
 ```bibtex
 @inproceedings{morazzoni-etal-2023-def2vec,
-  author    = {Irene Morazzoni and
-               Vincenzo Scotti and
-               Roberto Tedesco},
-  title     = {{Def2Vec}: Extensible Word Embeddings from Dictionary Definitions},
-  booktitle = {6th International Conference on Natural Language and Speech Processing,
-               {ICNLSP} 2023, Trento, Italy, December 16-17, 2023},
-  publisher = {Association for Computational Linguistics},
-  year      = {2023}
+    title = {{D}ef2{V}ec: Extensible Word Embeddings from Dictionary Definitions},
+    author = {Morazzoni, Irene  and
+      Scotti, Vincenzo  and
+      Tedesco, Roberto},
+    editor = {Abbas, Mourad  and
+      Freihat, Abed Alhakim},
+    booktitle = {Proceedings of the 6th International Conference on Natural Language and Speech Processing (ICNLSP 2023)},
+    month = dec,
+    year = {2023},
+    address = {Online},
+    publisher = {Association for Computational Linguistics},
+    url = {https://aclanthology.org/2023.icnlsp-1.21},
+    pages = {212--222}
 }
 ```
 

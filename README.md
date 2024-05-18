@@ -8,7 +8,7 @@ The M.Sc. degree was released by the Dipartimento di Elettronica, Informazione e
 
 ## Pre-trained models
 
-We release pre-trained models learned from the [English Wikitionary](https://en.wiktionary.org/wiki/Wiktionary:Main_Page).
+We release pre-trained models learned from the [English Wiktionary](https://en.wiktionary.org/wiki/Wiktionary:Main_Page).
 The pre-trained models is compatible with the *KeyedVectors* of the [Gensim API](https://radimrehurek.com/gensim/) (see example below).
 The models are available at the following links: 
 

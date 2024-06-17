@@ -83,6 +83,9 @@ If you are willing to use our model, please cite our work through the following 
 }
 ```
 
+> [!NOTE]  
+> The first reference is the preferred-one.
+
 ## Acknowledgments
 
 - Irene Morazzoni ([irene.morazzoni@mail.polimi.it](mailto:irene.morazzoni@mail.polimi.it))

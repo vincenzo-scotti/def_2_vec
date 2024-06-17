@@ -1,6 +1,6 @@
 # Def2Vec
 
-The codebase for the paper "[Def2Vec: Extensible Word Embeddings from Dictionary Definitions](https://aclanthology.org/2023.icnlsp-1.21)".
+The codebase for the paper "[Def2Vec: You Shall Know a Word by Its Definition](https://www.overleaf.com/read/vkgpmmbgscgn#bd6866)" (extension of the paper "[Def2Vec: Extensible Word Embeddings from Dictionary Definitions](https://aclanthology.org/2023.icnlsp-1.21)").
 For all the references, contributions, and credits, please refer to the paper.
 
 This code was initially developed as part of the M.Sc. Thesis in Computer Science and Engineering "[Def2Vec: a model to extract word embeddings from dictionary definitions](https://www.politesi.polimi.it/handle/10589/179715)".
@@ -48,13 +48,24 @@ sequence_embedding = np.vstack([
 ])
 ```
 
-For further examples, refer to the Jupyter Notebook available in this repository.
+For further examples, refer to the Jupyter Notebooks available in this repository.
 
 ## Cite work
 
-If you are willing to use our model, please cite our work through the following BibTeX entry:
+If you are willing to use our model, please cite our work through the following BibTeX entries:
 
 ```bibtex
+@article{morazzoni-etal-2024-def2vec,
+  author       = {Morazzoni, Irene  and
+                  Scotti, Vincenzo  and
+                  Tedesco, Roberto},
+  title        = {{D}ef2{V}ec: You Shall Know a Word by Its Definition},
+  journal      = {Int. J. Speech Technol.},
+  volume       = {27},
+  number       = {2},
+  year         = {2024}
+}
+
 @inproceedings{morazzoni-etal-2023-def2vec,
     title = {{D}ef2{V}ec: Extensible Word Embeddings from Dictionary Definitions},
     author = {Morazzoni, Irene  and

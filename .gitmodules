@@ -1,0 +1,6 @@
+[submodule "submodules/Iproject"]
+	path = submodules/Iproject
+	url = https://github.com/IreneMorazzoni/Iproject.git
+[submodule "submodules/vstk"]
+	path = submodules/vstk
+	url = https://github.com/vincenzo-scotti/vstk.git
